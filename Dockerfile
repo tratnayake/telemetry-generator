@@ -7,7 +7,7 @@ RUN GO111MODULE=on go install go.opentelemetry.io/collector/cmd/builder@v0.60.0
 
 ADD . .
 
-RUN /go/bin/opentelemetry-collector-builder --config /build/config/builder-config.yml
+RUN builder --config /build/config/builder-config.yml
 
 FROM debian:stretch-slim
 
