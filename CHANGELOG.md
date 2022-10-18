@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.4] - 2012-10-18
+### Added
+Test a no-op
 ## [0.1.3] - 2012-10-18
 ### Added
 * Update Dockerfile to make use of correct path for the `builder` binary (`s%/go/bin/opentelemetry-collector-builder%builder`)
